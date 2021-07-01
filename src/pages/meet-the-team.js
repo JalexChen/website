@@ -3,44 +3,43 @@ import Layout from '@theme/Layout';
 import { IconButton } from '@material-ui/core'
 
 export default function MyReactPage() {
-  const [githubLogo, setGithubLogo] = useState("../build/img/github-white.png")
+  const [githubLogo, setGithubLogo] = useState("../img/github-white.png")
   useEffect(() => {
-    if (document.getElementsByTagName('html')[0].attributes[1].nodeValue === 'dark') setGithubLogo("../build/img/github-white.png");
-    else setGithubLogo("../build/img/github-black.png")
+    const darkTheme = document.getElementsByTagName('html')[0].attributes[2].nodeValue === 'dark'
+    (darkTheme) ? setGithubLogo("../img/github-white.png") : setGithubLogo("../img/github-black.png")
     window.addEventListener('click', () => {
-      if (document.getElementsByTagName('html')[0].attributes[1].nodeValue === 'dark') setGithubLogo("../build/img/github-white.png");
-      else setGithubLogo("../build/img/github-black.png")
+    (darkTheme) ? setGithubLogo("../img/github-white.png") : setGithubLogo("../img/github-black.png")
     })
   }, [])
 
   const teamProfiles = [
     {
       name: "Andy Kahn",
-      picture: "../build/img/andy.jpeg",
+      picture: "../img/andy.jpeg",
       github: "https://github.com/adkahn",
       linkedIn: "",
     },
     {
       name: "Jeff Chen",
-      picture: "../build/img/jeff.png",
+      picture: "../img/jeff.png",
       github: "https://github.com/JalexChen",
       linkedIn: "https://www.linkedin.com/in/jalexchen/"
     },
     {
       name: "Lawrence Han",
-      picture: "../build/img/larry.jpeg",
+      picture: "../img/larry.jpeg",
       github: "https://github.com/lawrencehan650",
       linkedIn: "https://www.linkedin.com/in/lawrence-han"
     },
     {
       name: "Mika Todd",
-      picture: "../build/img/mika.jpeg",
+      picture: "../img/mika.jpeg",
       github: "https://github.com/mikatodd",
       linkedIn: "https://www.linkedin.com/in/mika-todd-b37328105/"
     },
     {
       name: "Patrick Allen",
-      picture: "../build/img/patrick.png",
+      picture: "../img/patrick.png",
       github: "https://github.com/PatrickAllen1",
       linkedIn: "https://www.linkedin.com/in/patrickallendfs/"
     },
@@ -62,7 +61,7 @@ export default function MyReactPage() {
             </IconButton>
           <a href={person.linkedIn} target="_blank">
             <IconButton color="secondary">
-              <img className="logos" src="../build/img/linkedin.png"/>
+              <img className="logos" src="../img/linkedin.png"/>
             </IconButton>
           </a>
         </div>

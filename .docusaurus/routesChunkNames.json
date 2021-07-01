@@ -1,140 +1,162 @@
 {
   "/-deb": {
-    "component": "c4f5d8e4",
-    "config": "5e9f5e1a"
+    "component": "component---site-src-pages-index-jsc-4-f-f99",
+    "config": "config---5-e-9-4f3"
+  },
+  "/__docusaurus/debug-3d6": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/__docusaurus/debug/config-914": {
+    "component": "component---theme-debug-config-23-a-2ff"
+  },
+  "/__docusaurus/debug/content-c28": {
+    "component": "component---theme-debug-contentba-8-ce7",
+    "allContent": "allContent---docusaurus-debug-content-246-9aa"
+  },
+  "/__docusaurus/debug/globalData-3cf": {
+    "component": "component---theme-debug-global-dataede-0fa"
+  },
+  "/__docusaurus/debug/metadata-31b": {
+    "component": "component---theme-debug-site-metadata-68-e-3d4"
+  },
+  "/__docusaurus/debug/registry-0da": {
+    "component": "component---theme-debug-registry-679-501"
+  },
+  "/__docusaurus/debug/routes-244": {
+    "component": "component---theme-debug-routes-946-699"
   },
   "/blog-048": {
-    "component": "a6aa9e1f",
-    "sidebar": "814f3328",
+    "component": "component---theme-blog-list-pagea-6-a-7ba",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "e23efdba"
+        "content": "content---bloge-23-f39"
       },
       {
-        "content": "0a63e0ac"
+        "content": "content---blog-0-a-6-5ab"
       }
     ],
-    "metadata": "b2b675dd"
+    "metadata": "metadata---blogb-2-b-df1"
   },
   "/blog/introducing-ohana-296": {
-    "component": "ccc49370",
-    "sidebar": "814f3328",
-    "content": "020f6fb3"
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-introducing-ohana-020-134"
   },
   "/blog/introduction-to-kubernetes-138": {
-    "component": "ccc49370",
-    "sidebar": "814f3328",
-    "content": "737bfdef"
+    "component": "component---theme-blog-post-pageccc-cab",
+    "sidebar": "sidebar---blog-814-8ac",
+    "content": "content---blog-introduction-to-kubernetes-737-4c6"
   },
   "/blog/tags-e13": {
-    "component": "01a85c17",
-    "sidebar": "814f3328",
-    "tags": "a7023ddc"
+    "component": "component---theme-blog-tags-list-page-01-a-d0b",
+    "sidebar": "sidebar---blog-814-8ac",
+    "tags": "tags---blog-tagsa-70-da2"
   },
   "/blog/tags/cloud-932": {
-    "component": "6875c492",
-    "sidebar": "814f3328",
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "e23efdba"
+        "content": "content---bloge-23-f39"
       }
     ],
-    "metadata": "f3543915"
+    "metadata": "metadata---blog-tags-cloudf-35-bb0"
   },
   "/blog/tags/containerization-171": {
-    "component": "6875c492",
-    "sidebar": "814f3328",
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "e23efdba"
+        "content": "content---bloge-23-f39"
       }
     ],
-    "metadata": "4bc23b0e"
+    "metadata": "metadata---blog-tags-containerization-4-bc-762"
   },
   "/blog/tags/containers-9f9": {
-    "component": "6875c492",
-    "sidebar": "814f3328",
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "0a63e0ac"
+        "content": "content---blog-0-a-6-5ab"
       }
     ],
-    "metadata": "0e4ec2e4"
+    "metadata": "metadata---blog-tags-containers-0-e-4-dd4"
   },
   "/blog/tags/docker-f67": {
-    "component": "6875c492",
-    "sidebar": "814f3328",
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "e23efdba"
+        "content": "content---bloge-23-f39"
       },
       {
-        "content": "0a63e0ac"
+        "content": "content---blog-0-a-6-5ab"
       }
     ],
-    "metadata": "8593ff01"
+    "metadata": "metadata---blog-tags-docker-859-ae4"
   },
   "/blog/tags/kubernetes-873": {
-    "component": "6875c492",
-    "sidebar": "814f3328",
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "e23efdba"
+        "content": "content---bloge-23-f39"
       },
       {
-        "content": "0a63e0ac"
+        "content": "content---blog-0-a-6-5ab"
       }
     ],
-    "metadata": "b0f1c099"
+    "metadata": "metadata---blog-tags-kubernetesb-0-f-750"
   },
   "/blog/tags/ohana-2fc": {
-    "component": "6875c492",
-    "sidebar": "814f3328",
+    "component": "component---theme-blog-tags-posts-page-687-b6c",
+    "sidebar": "sidebar---blog-814-8ac",
     "items": [
       {
-        "content": "0a63e0ac"
+        "content": "content---blog-0-a-6-5ab"
       }
     ],
-    "metadata": "bc5be9a2"
+    "metadata": "metadata---blog-tags-ohanabc-5-84f"
   },
   "/markdown-page-be1": {
-    "component": "1f391b9e",
-    "content": "393be207"
+    "component": "component---theme-mdx-page-1-f-3-b90",
+    "content": "content---markdown-page-393-028"
   },
   "/meet-the-team-ff8": {
-    "component": "e1cd1643",
-    "config": "5e9f5e1a"
+    "component": "component---site-src-pages-meet-the-team-jse-1-c-06c",
+    "config": "config---5-e-9-4f3"
   },
   "/my-markdown-page-81e": {
-    "component": "1f391b9e",
-    "content": "03181aef"
+    "component": "component---theme-mdx-page-1-f-3-b90",
+    "content": "content---my-markdown-page-031-4dc"
   },
   "/docs-fb9": {
-    "component": "1be78505",
-    "versionMetadata": "935f2afb"
+    "component": "component---theme-doc-page-1-be-9be",
+    "versionMetadata": "versionMetadata---docs-935-398"
   },
   "/docs/getting-started/community-e73": {
-    "component": "17896441",
-    "content": "1117f49a"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-community-111-b8b"
   },
   "/docs/getting-started/crash-course-f33": {
-    "component": "17896441",
-    "content": "55449633"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-crash-course-554-7b4"
   },
   "/docs/getting-started/features-643": {
-    "component": "17896441",
-    "content": "1d48e3ab"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-features-1-d-4-ace"
   },
   "/docs/getting-started/setup-2bb": {
-    "component": "17896441",
-    "content": "530ea7a0"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-getting-started-setup-530-9f3"
   },
   "/docs/ohana-76f": {
-    "component": "17896441",
-    "content": "5dd61a35"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-ohana-5-dd-5d4"
   },
   "/docs/why-use-us-c4e": {
-    "component": "17896441",
-    "content": "43062487"
+    "component": "component---theme-doc-item-178-a40",
+    "content": "content---docs-why-use-us-430-675"
   }
 }
