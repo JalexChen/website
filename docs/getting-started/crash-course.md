@@ -2,7 +2,17 @@
 sidebar_position: 4
 title: Crash Course
 ---
-import { TextField, Button, CircularProgress, FormControl, FormControlLabel, InputLabel, Select, MenuItem, Checkbox } from '@material-ui/core';
+import { TextField, Button, CircularProgress, FormControl, FormControlLabel, InputLabel, Select, MenuItem, Checkbox, makeStyles } from '@material-ui/core';
+
+const useStyles = makeStyles((theme) => ({
+  root: {
+    "& .MuiFilledInput-root": {
+      background: "rgb(232, 241, 250)"
+    }
+  }
+}));
+
+
 
 ## Administrator Overview
 
